@@ -1,5 +1,5 @@
 # Set working directory
-setwd("D:/rWork/Explorartory Analysis/Week1 Assignment/ExData_Plotting1")
+setwd("D:/rWork/Exploratory Analysis/Week1 Assignment/ExData_Plotting1")
 
 # Read the data from file
 con<-file("household_power_consumption.txt")
