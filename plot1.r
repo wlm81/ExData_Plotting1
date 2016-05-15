@@ -35,5 +35,5 @@ hist(energydata$Global_active_power,
 # Copy graph to PNG file
 dev.copy(png, 
      file="plot1.png", 
-     height=500, width=500)
+     height=480, width=480)
 dev.off()

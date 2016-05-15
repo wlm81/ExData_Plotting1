@@ -87,6 +87,6 @@ plot(energydata$Timestamp,
 # Copy graph to PNG file
 dev.copy(png, 
      file="plot4.png", 
-     height=500, 
-     width=500)
+     height=480, 
+     width=480)
 dev.off()

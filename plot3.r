@@ -64,6 +64,6 @@ legend("topright",
 # Copy graph to PNG file
 dev.copy(png, 
      file="plot3.png", 
-     height=500, 
-     width=500)
+     height=480, 
+     width=480)
 dev.off()
