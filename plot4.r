@@ -33,7 +33,7 @@ energydata$Sub_metering_2 <- as.numeric(energydata$Sub_metering_2)
 energydata$Sub_metering_3 <- as.numeric(energydata$Sub_metering_3)
 
 # Create first plot of data
-par(mfcol=c(2,2))
+par(mfcol=c(2,2), mar=c(4,4,1,1), oma=c(0,0,0,0))
 
 # Plot graph
 plot(energydata$Timestamp, 
@@ -60,12 +60,11 @@ lines(energydata$Timestamp,
 
 # Key to plot
 legend("topright",
-      legend = c("Sub_metering_1","Sub_metering_2","Sub_metering_3"),
-      col = c("black","red","blue"), 
-      cex0.8,
-      lwd=2.5,
-      bty="n",
-      lty =)
+       legend = c("Sub_metering_1","Sub_metering_2","Sub_metering_3"),
+       col = c("black","red","blue"), 
+       cex=.8,
+       bty="n",
+       lty = 1)
 
 # Add third graph
 plot(energydata$Timestamp, 
@@ -85,5 +84,6 @@ plot(energydata$Timestamp,
 # Copy graph to PNG file
 dev.copy(png, 
      file="plot4.png", 
-     height=500, width=500)
+     height=500, 
+     width=500)
 dev.off()
