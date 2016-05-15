@@ -1,3 +1,6 @@
+# Download the Electric Power Consumption dataset from https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip
+# Extract the data file to the working directory and set the working directory if needed
+
 # Set working directory
 setwd("D:/rWork/Exploratory Analysis/Week1 Assignment/ExData_Plotting1")
 
